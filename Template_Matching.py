@@ -85,10 +85,6 @@ def Image_detection(test_folder, template_folder, threshold=0.7):
         cv2.waitKey(0)
         cv2.destroyAllWindows()     
 
-test_folder = "C:/Users/ramad/Downloads/opengeo/opengeo/face detection data/test preprocessed/test_images_folder/test"
-template_folder = "C:/Users/ramad/Downloads/opengeo/opengeo/face detection data/test preprocessed/test_images_folder/template"                 
-Image_detection(test_folder, template_folder)
-
 #3 function to template match with video samples
 def Video_detection(video_file, template_folder,threshold =0.7):
 
@@ -149,7 +145,7 @@ def Video_detection(video_file, template_folder,threshold =0.7):
     cv2.destroyAllWindows()
     
 video_file = "C:/Users/ramad/Downloads/opengeo/opengeo/face detection data/1.avi"
-test_folder = "C:/Users/ramad/Downloads/opengeo/opengeo/face detection data/test preprocessed/test_images_folder/test"
-template_folder = "C:/Users/ramad/Downloads/opengeo/opengeo/face detection data/test preprocessed/test_images_folder/template"                 
+test_folder = "Steering_wheel_detection/Template_matching/test"
+template_folder ="Steering_wheel_detection/Template_matching/template"                
 Image_detection(test_folder, template_folder)
-Video_detection(test_folder,template_folder)
+#Video_detection(test_folder,template_folder)
