@@ -144,7 +144,7 @@ def Video_detection(video_file, template_folder,threshold =0.7):
     cap.release()
     cv2.destroyAllWindows()
     
-video_file = "C:/Users/ramad/Downloads/opengeo/opengeo/face detection data/1.avi"
+video_file = "Steering_wheel_detection/Template_matching/1.avi"
 test_folder = "Steering_wheel_detection/Template_matching/test"
 template_folder ="Steering_wheel_detection/Template_matching/template"                
 Image_detection(test_folder, template_folder)
